@@ -88,3 +88,32 @@ nipun.ironhack@LAPTOP-VCC1TMS4 MINGW64 ~/Desktop/Work/Coding/Labs-IH/lab-bash (m
 $ find . -type f -name "lorem*"
 ./lorem/lorem.txt
 ./lorem-copy/lorem.txt
+
+20. Store your name in a variable with read command.
+
+nipun.ironhack@LAPTOP-VCC1TMS4 MINGW64 ~/Desktop/Work/Coding/Labs-IH
+$ read myName
+Nipun
+
+21. Print that variable.
+nipun.ironhack@LAPTOP-VCC1TMS4 MINGW64 ~/Desktop/Work/Coding/Labs-IH
+$ echo $myName
+Nipun
+
+22. Create a new directory named with variable name.
+
+nipun.ironhack@LAPTOP-VCC1TMS4 MINGW64 ~/Desktop/Work/Coding/Labs-IH
+$ mkdir $myName
+
+nipun.ironhack@LAPTOP-VCC1TMS4 MINGW64 ~/Desktop/Work/Coding/Labs-IH
+$ ls
+IronNipun/  Iron_Deepen/  Nipun/  lab-bash/
+
+23. Remove that directory.
+
+nipun.ironhack@LAPTOP-VCC1TMS4 MINGW64 ~/Desktop/Work/Coding/Labs-IH
+$ rmdir $myName
+
+nipun.ironhack@LAPTOP-VCC1TMS4 MINGW64 ~/Desktop/Work/Coding/Labs-IH
+$ ls
+IronNipun/  Iron_Deepen/  lab-bash/
